@@ -8,6 +8,9 @@ Leverage Anisble to build all of this
 
 ## Terminal setup
 * install iterm
+  * iterm setup:
+    * use ALT-arrow keys to move between words: profile->keys->key mapping->presets-> select natural text editing
+    * font - menlo   
 * install oh my zsh via:
 `-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
@@ -42,7 +45,8 @@ the llvm setup.  to fix:
     `export PATH=/usr/local/bin/rust-analyzer:$PATH`
 
     * see .config/helix for config.toml & language.toml
-
+* font - uses terminal default, change there
+* Theme - monokai_pro_octagon
 ## Lazygit:
   * brew install lazygit
   * `c` to start commit / bring up commit window
