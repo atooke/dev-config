@@ -17,6 +17,12 @@ Leverage Anisble to build all of this
 * Note: it will update .zshrc if you are running iterm, copy any old settings that are
 now in .zshrc.pre-oh-my-zsh  
 
+* cheatsheet:
+  *  CMD+D = split vertical
+  *  CMD+SHIFT + <- or -> = switch betwen panes
+
+
+
 ## install FTF
 * git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 * Example usage - find all python files and bring into fzf
@@ -32,6 +38,8 @@ now in .zshrc.pre-oh-my-zsh
 
 ## Helix setup
 * brew install helix
+* brew install npm
+* 
 * LLVM setup:
   * run hx --health optional add language you want to check.  Chances are you are missing
 the llvm setup.  to fix:
@@ -39,6 +47,11 @@ the llvm setup.  to fix:
     *  install rus analyzer  &  llvm
         * brew install rust-analyzer
         * brew install llvm
+  * for python:
+    *  npm install pyright -g
+    *  pip install ruff-lsp
+    *  pip install 
+
 
     * setup env variable in .zshrc so that they can be found
     `export PATH=/usr/local/opt/llvm/bin:$PATH`
