@@ -1,9 +1,22 @@
 # rust setup:
   #brew install rust-analyzer
 # python:
+  # brew install npm (for pyright) then npm pyright -g (see readme)
   # pip install -U 'python-lsp-server[all]'
   # pip install ruff-lsp
 # for more see: https://github.com/helix-editor/helix/wiki/How-to-install-the-default-language-servers#pylsp
+
+
+
+[[language]]
+name = "rust"
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+
+[language-server.rust-analyzer.config.cargo]
+features = "all"
+
 
 
 [[language]]
