@@ -38,7 +38,7 @@ now in .zshrc.pre-oh-my-zsh
 
 ## Helix setup
 * brew install helix
-* brew install npm
+* brew install npm (needed to setup pyright LSP for python autocomplete in helix)
 * 
 * LLVM setup:
   * run hx --health optional add language you want to check.  Chances are you are missing
