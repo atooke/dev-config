@@ -1,6 +1,10 @@
 # Overview:	
 
-Setup of dev tools for quick(er) migration to new PC/build.  
+Setup of dev tools for quick(er) migration to new PC/build.  This repo contains:
+
+1) Setup instructions - see below
+2) .dotfiles/Config files for each apply to easy replicate on other systems.
+   
 
 # TODO: 
 Leverage Anisble to build all of this
