@@ -23,8 +23,9 @@ now in .zshrc.pre-oh-my-zsh
 * install:brew install tmux
 * cheatsheet:
   * `tmux new -s "name of session"` or `tmux new-session -s "$(basename "$(pwd)")"`
-
-* exit session but keep running `CTRL+B, let keys go, then press D to dettach but keep session`
+  * exit session but keep running `CTRL+B, let keys go, then press D to dettach but keep session`
+  * tmux ls
+  * tmux attach -t <sessions name>
 
 ## Helix setup
 * brew install helix
@@ -43,7 +44,8 @@ the llvm setup.  to fix:
     * see .config/helix for config.toml & language.toml
 
 ## Lazygit:
-  brew install lazygit
+  * brew install lazygit
+  * `c` to start commit / bring up commit window
 
 ## Worktree
   * git worktree flow:
