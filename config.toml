@@ -1,0 +1,12 @@
+theme = "tokyonight_storm"
+
+[editor]
+line-number = "relative"
+rulers = [88]
+cursorline = true
+
+
+[editor.cursor-shape]
+insert="block"
+normal="block"
+select="underline"

@@ -1,0 +1,31 @@
+
+[[language]]
+name = "rust"
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+
+[language-server.rust-analyzer.config.cargo]
+features = "all"
+
+
+
+[[language]]
+name = "python"
+language-servers = [ "pylsp", "ruff" ]
+
+[language-server.pyright.config.python.analysis]
+typeCheckingMode = "basic"
+
+[language-server.ruff]
+command = "ruff-lsp"
+
+[language-server.ruff-lsp]
+command = "ruff-lsp"
+[[language]]
+name = "python"
+language-servers = [ "ruff-lsp" ]
+
+# In case you'd like to use ruff alongside black for code formatting:
+formatter = { command = "black", args = ["--quiet", "-"] }
+auto-format = true
