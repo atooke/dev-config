@@ -50,6 +50,8 @@ the llvm setup.  to fix:
 ## Lazygit:
   * brew install lazygit
   * `c` to start commit / bring up commit window
+  * `q`= quit
+  * `a` = add 
 
 ## Worktree
   * git worktree flow:
