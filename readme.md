@@ -68,7 +68,8 @@ the llvm setup.  to fix:
   * brew install lazygit
   * `c` to start commit / bring up commit window
   * `q`= quit
-  * `a` = add
+  * `a` = add all
+  * ' ' / space when on file in files section - stage 1 file
   * `P` = push
   * `p` = pull
 
