@@ -73,7 +73,9 @@ the llvm setup.  to fix:
      * Enter new text, all will be changed at once
      * , to remove multi cursor
      * press n or b to go back/from
-   
+
+      another way, v to select first char, l to select chars, * and spam n for next
+
    * multi-line cursor = SHIFT+C
    * u = undo
    * y copy
@@ -104,3 +106,6 @@ the llvm setup.  to fix:
 ## Worktree
   * git worktree flow:
   * https://github.com/jesseduffield/lazygit?tab=readme-ov-file#tutorials
+
+## lf - GUI file manager:
+   https://github.com/gokcehan/lf
