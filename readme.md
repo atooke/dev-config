@@ -57,6 +57,7 @@ the llvm setup.  to fix:
     *  pip install 
 
 
+
     * setup env variable in .zshrc so that they can be found
     `export PATH=/usr/local/opt/llvm/bin:$PATH`
     `export PATH=/usr/local/bin/rust-analyzer:$PATH`
@@ -64,6 +65,33 @@ the llvm setup.  to fix:
     * see .config/helix for config.toml & language.toml
 * font - uses terminal default, change there
 * Theme - monokai_pro_octagon
+* Key shortcuts:
+
+   * find/replace all occurances at once (CMD+D in sublime code):
+     * Press % to select all text or x to select block of text
+     * Press s to enter search term & press enter
+     * Enter new text, all will be changed at once
+     * , to remove multi cursor
+     * press n or b to go back/from
+   
+   * multi-line cursor = SHIFT+C
+   * u = undo
+   * y copy
+   * space y or Y = copy to system clipboard
+   * space p or P - paste
+   * space f = open file
+   * space b = open buffer (see currently open files)
+   * shift + ~ = uppercase /lower case toggle, need to select word first
+
+   *gg - from of file
+   *ge - end of file
+   * gl - goto end of line
+   * gh - goto start of line
+
+   *CTRL+Z - put helix in background/go back to CLI
+   * bg - get back into helix
+
+
 ## Lazygit:
   * brew install lazygit
   * `c` to start commit / bring up commit window
