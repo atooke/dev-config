@@ -103,6 +103,21 @@ the llvm setup.  to fix:
   * `P` = push
   * `p` = pull
 
+## Nerd fonts
+* used by neo-vim / iterm2 ZSH themes
+* `brew tap homebrew/cask-fonts`
+* Find font you want from list here, i like the hack font-> https://hugodelahousse.github.io/nerd-fonts-preview/
+* Then install it via: `brew install font-hack-nerd-font`
+
+## lazy vim:
+   * https://www.lazyvim.org/
+   * pre-reqs:
+     *  nerd fonts
+     *  for telescope plugin:
+        *  gripgrep `brew install ripgrep `
+        *  fd - `brew install fd`
+  *  follow install instructions for config files: https://www.lazyvim.org/installation
+
 ## Worktree
   * git worktree flow:
   * https://github.com/jesseduffield/lazygit?tab=readme-ov-file#tutorials
