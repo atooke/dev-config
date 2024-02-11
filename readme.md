@@ -118,6 +118,19 @@ the llvm setup.  to fix:
         *  fd - `brew install fd`
   *  follow install instructions for config files: https://www.lazyvim.org/installation
 
+Commmand cheatsheet:
+* space tab tab = create new tab
+* switch tabs = space tab [ or [
+
+* space w | = vertical split window
+* switch between windows = space w w 
+* space space = bring up finder / searcher
+* space y or Y= yank/copy
+* space p or P = paste
+* vip = select paragrach
+* wic = select class
+* :8 12s/main/xxx/gc   = from line 8 to 12 change main to xxx
+
 ## Worktree
   * git worktree flow:
   * https://github.com/jesseduffield/lazygit?tab=readme-ov-file#tutorials
