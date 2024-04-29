@@ -137,3 +137,8 @@ Commmand cheatsheet:
 
 ## lf - GUI file manager:
    https://github.com/gokcehan/lf
+
+## Terraform
+
+* brew tap hashicorp/tap
+* brew install hashicorp/tap/terraform
