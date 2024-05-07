@@ -14,7 +14,6 @@ Leverage Anisble to build all of this
 * install iterm
   * iterm setup:
     * use ALT-arrow keys to move between words: profile->keys->key mapping->presets-> select natural text editing
-    * font - menlo   
 * install oh my zsh via:
 `-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
@@ -24,6 +23,15 @@ now in .zshrc.pre-oh-my-zsh
 * cheatsheet:
   *  CMD+D = split vertical
   *  CMD+SHIFT + <- or -> = switch betwen panes
+
+* Install Nerd fonts
+* used by neo-vim / iterm2 ZSH themes
+* `brew tap homebrew/cask-fonts`
+* Find font you want from list here, i like the hack font-> https://hugodelahousse.github.io/nerd-fonts-preview/
+* Then install it via: `brew install font-hack-nerd-font`
+* Update terminal font settings:
+    * iterm->settings->profiles->text-> enter `hack nerd font mono` size=14
+
 
 
 
@@ -103,11 +111,7 @@ the llvm setup.  to fix:
   * `P` = push
   * `p` = pull
 
-## Nerd fonts
-* used by neo-vim / iterm2 ZSH themes
-* `brew tap homebrew/cask-fonts`
-* Find font you want from list here, i like the hack font-> https://hugodelahousse.github.io/nerd-fonts-preview/
-* Then install it via: `brew install font-hack-nerd-font`
+
 
 ## lazy vim:
    * https://www.lazyvim.org/
