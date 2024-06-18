@@ -86,9 +86,10 @@ the llvm setup.  to fix:
 
    * multi-line cursor = SHIFT+C
    * u = undo
-   * y copy
-   * space y or Y = copy to system clipboard
-   * space p or P - paste
+   * COPY / PASTE
+      * space y or Y = copy to system clipboard
+      * space p or P - paste
+   * Search for text within files: space  / then enter search term
    * space f = open file
    * space b = open buffer (see currently open files)
    * shift + ~ = uppercase /lower case toggle, need to select word first
