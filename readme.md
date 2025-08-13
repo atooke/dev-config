@@ -112,7 +112,10 @@ the llvm setup.  to fix:
   * `P` = push
   * `p` = pull
 
-
+## Ripgrep
+* Used by snack picker in lazy vim:
+* `brew install ripgrep`
+* more here: https://github.com/BurntSushi/ripgrep
 
 ## lazy vim:
    * https://www.lazyvim.org/
@@ -146,4 +149,8 @@ Commmand cheatsheet:
 ## Terraform
 
 * brew tap hashicorp/tap
+* brew install tf-summarize (to summerize plan output to make it more readable)
 * brew install hashicorp/tap/terraform
+
+
+
